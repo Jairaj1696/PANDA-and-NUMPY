@@ -38,11 +38,3 @@ s1.dtype
 
 dtype('int32')
 
-# Number of bytes consumed by Series
-s1.nbytes
-
-# Shape of the Series
-s1.shape
-
-# number of dimensions
-s1.ndim

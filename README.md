@@ -71,3 +71,24 @@ s1.index = ['a' , 'b' , 'c' , 'd' , 'e' , 'f' , 'g'] s1
 
 dtype: int32
 
+# Create Series using Random and Range function
+
+v2 = np.random.random(10) ind2 = np.arange(0,10) s = pd.Series(v2,ind2) v2 , ind2 , s (array([0.87790351, 0.21256923, 0.2833476 , 0.84976498, 0.17274437, 0.36953613, 0.92661933, 0.13005525, 0.25394528, 0.43563311]), array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9]),
+
+dtype: float64)
+
+# Creating Series from Dictionary
+
+dict1 = {'a1' :10 , 'a2' :20 , 'a3':30 , 'a4':40} s3 = pd.Series(dict1) s3
+
+dtype: int64 pd.Series(99, index=[0, 1, 2, 3, 4, 5])
+
+dtype: int64
+
+Slicing Series
+
+# Return all elements of the series
+
+s[:]
+
+dtype: float64

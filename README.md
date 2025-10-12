@@ -92,3 +92,51 @@ Slicing Series
 s[:]
 
 dtype: float64
+
+# First three element of the Series
+
+s[0:3]
+
+dtype: float64
+
+# Last element of the Series
+
+s[-1:]
+
+dtype: float64
+
+# Fetch first 4 elements in a series
+
+s[:4]
+
+dtype: float64
+
+# Return all elements of the series except last two elements.
+
+s[:-2]
+
+dtype: float64
+
+# Return all elements of the series except last element.
+
+s[:-1]
+
+dtype: float64
+
+# Return last two elements of the series
+
+s[-2:]
+
+dtype: float64
+
+# Return last element of the series
+
+s[-1:]
+
+dtype: float64 s[-3:-1]
+
+dtype: float64 Append Series s2 = s1.copy() s2
+
+dtype: int32 s3
+
+dtype: int64

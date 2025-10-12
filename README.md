@@ -172,4 +172,10 @@ Numpy Array Creation list1 = [10,20,30,40,50,60] list1
 
 # Display the type of an object
 
-type(list1) list #Convert list to Numpy Array arr1 = np.array(list1) arr1 array([10, 20, 30, 40, 50, 60]) #Memory address of an array object arr1.data
+type(list1) list 
+
+#Convert list to Numpy Array
+
+arr1 = np.array(list1) arr1 array([10, 20, 30, 40, 50, 60]) 
+
+#Memory address of an array object arr1.data

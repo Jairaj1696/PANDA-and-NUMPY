@@ -65,3 +65,9 @@ s0=pd.Series([1,2,3]index=['a','b','c'])s0
 
 dtype:int32
 
+# Modifying Index In Series
+
+s1.index = ['a' , 'b' , 'c' , 'd' , 'e' , 'f' , 'g'] s1
+
+dtype: int32
+

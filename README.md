@@ -50,3 +50,18 @@ s1.shape
 
 s1.ndim
 
+# Length of Series 
+
+len(s1)
+
+
+s1.count()
+
+s1.size
+
+# Create series from list 
+
+s0=pd.Series([1,2,3]index=['a','b','c'])s0
+
+dtype:int32
+

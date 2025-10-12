@@ -140,3 +140,32 @@ dtype: float64 Append Series s2 = s1.copy() s2
 dtype: int32 s3
 
 dtype: int64
+
+# Append S2 & S3 Series
+
+s4 = s2.append(s3) s4
+
+dtype: int64
+
+# When "inplace=False" it will return a new copy of data with the operation performed
+
+s4.drop('a4' , inplace=False)
+
+dtype: int64 s4
+
+dtype: int64
+
+# When we use "inplace=True" it will affect the dataframe
+
+s4.drop('a4', inplace=True) s4
+
+dtype: int64 s4 = s4.append(pd.Series({'a4': 7})) s4
+
+dtype: int64
+
+# NumPy (12/10/25)
+# Import Numpy Library
+
+import numpy as np import warnings warnings.filterwarnings("ignore") from IPython.display import Image
+
+Numpy Array Creation list1 = [10,20,30,40,50,60] list1
